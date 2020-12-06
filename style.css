@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url("Inconsolata-Regular.ttf");
+}
+
+@font-face {
+  font-family: Inconsolata-Bold;
+  src: url("Inconsolata-Bold.ttf");
+}
+
+body {
+  font-family: Inconsolata, monospace;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: Inconsolata-Bold;
+}
+
+span {
+  font-family: Inconsolata; 
+}
+
+a {
+  color: #aba4d3;
+}
+a:hover {
+  color: #fdcdd9;
+}
+
+ul {
+  padding-left: 1em;
+  list-style-position: inside;
+}
+
+li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.extra-width {
+  width: 108%
+}
+
+.name {
+  font-family: Inconsolata-Bold, sans-serif;
+  font-size: 3.1em;
+}
+
+.blocks {
+  display: inline-block;
+}
+
+.block {
+  float: left;
+  margin-right: 0.5rem;
+  width: 25px;
+  height: 25px;
+}
+/*source: https://www.design-seeds.com/seasons/winter/winter-tones-14/*/
+.block:nth-child(1) {
+  background-color: #787EA4;
+}
+.block:nth-child(2) {
+  background-color: #aba4d3;
+}
+.block:nth-child(3) {
+  background-color: #e7b8d9;
+}
+.block:nth-child(4) {
+  background-color: #fdcdd9;
+}
+
+@media (max-width: 575px) {
+  .tags {
+    margin-bottom: 0.5rem;
+  }
+}
